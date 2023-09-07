@@ -680,8 +680,6 @@ li {
   width: 10px;
   height: 8px;
   position: absolute;
-
-  border: 1px solid rgba(46, 47, 66, 0.4);
 }
 .checkbox:checked + .checkbox-label > .span-svg {
   background-color: #404bbf;
