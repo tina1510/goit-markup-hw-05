@@ -445,7 +445,7 @@ li {
   color: var(--white, #fff);
   text-align: center;
   cursor: pointer;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -462,6 +462,10 @@ li {
   color: var(--white, #fff);
   padding-left: 16px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 .input-email::placeholder {
   color: var(--white, #fff);
@@ -470,7 +474,7 @@ li {
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 200% */
-  letter-spacing: 0.48px;
+  letter-spacing: 0.02em;
   padding-top: 8px;
   padding-left: 16px;
 }
