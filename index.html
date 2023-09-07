@@ -367,14 +367,17 @@
                             </svg></a></li>
                 </ul>
             </div>
-            <form name="Subscribe" autocomplete="off" class="form">
-
-                <label class="subscribe">
-                    Subscribe </label>
-                <div class="form-email">
-                    <input class="input-email" type="email" name="email" placeholder="E-mail">
+            <div class="footer-subscribe">
+                <p class="subscribe-text">
+                    Subscribe </p>
+                <form name="Subscribe" autocomplete="off" class="form-email">
 
 
+                    <!-- <div class=""> form-email -->
+                    <label for="email">
+                        <input class="input-email" type="email" name="email" placeholder="E-mail">
+
+                    </label>
                     <button type="submit" class="button-subscribe">Subscribe
 
                         <svg class="frame-svg" width="24" height="24">
@@ -382,15 +385,19 @@
                         </svg>
                     </button>
 
-                </div>
-            </form>
+
+
+                    <!-- </div> -->
+                </form>
+            </div>
+
         </div>
 
 
     </footer>
 
     <!-- form -->
-    <div class="container-form"></div>
+    <!-- <div class="container-form"></div>
     <div class="register-form-container">
         <button class="button-close"><svg class="close-svg" width="8px" height="8px">
                 <use href="images/icons.svg#icon-close-black"></use>
@@ -460,7 +467,7 @@
             </label>
             <button type="submit" class="button-send">Send</button>
         </form>
-    </div>
+    </div> -->
 
 </body>
 

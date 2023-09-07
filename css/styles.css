@@ -407,31 +407,36 @@ li {
   margin-right: 120px;
 }
 
+.footer-subscribe {
+  margin-left: 80px;
+}
 .subscribe {
   display: flex;
   flex-direction: column;
   row-gap: 24px;
   margin-left: 80px;
-  color: var(--white, #fff);
-
+}
+.subscribe-text {
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.64px;
+  margin-bottom: 16px;
+  color: var(--white, #fff);
 }
 
 .form-email {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 .button-subscribe {
   min-width: 165px;
   height: 40px;
   border: none;
   border-radius: 4px;
-  display: inline-flex;
+  display: flex;
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
@@ -439,7 +444,7 @@ li {
   background: var(--iris, #4d5ae5);
   color: var(--white, #fff);
   text-align: center;
-
+  cursor: pointer;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -455,6 +460,8 @@ li {
   width: 264px;
   height: 40px;
   color: var(--white, #fff);
+  padding-left: 16px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 .input-email::placeholder {
   color: var(--white, #fff);
@@ -469,6 +476,7 @@ li {
 }
 .frame-svg {
   fill: white;
+  margin-left: 16px;
 }
 
 /* form */
